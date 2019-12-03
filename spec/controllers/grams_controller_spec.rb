@@ -22,6 +22,7 @@ RSpec.describe GramsController, type: :controller do
       gram.reload
       expect(gram.message).to eq "Initial Value"
     end
+  end
 
   describe "grams#edit action" do
     it "should successfully show the edit form if the gram is found" do
@@ -102,6 +103,5 @@ RSpec.describe GramsController, type: :controller do
       expect(response).to have_http_status(:unprocessable_entity)
       expect(gram_count).to eq Gram.count
     end
-
   end
 end
