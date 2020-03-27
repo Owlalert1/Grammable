@@ -1,24 +1,27 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# [Grammable](https://grammable-joe-holley.herokuapp.com/)
 
-Things you may want to cover:
+An Instagram clone that was built using industry-standard, test-driven development following numerous red/green/refactor cycles.
 
-* Ruby version
+#### Built using:
+- Ruby v2.5.3
+- HTML5
+- CSS
+- Bootstrap 4.0.0.alpha6
+- JQuery
+- Popper JS
+- Font Awesome
 
-* System dependencies
+#### Ruby Gems used:
 
-* Configuration
+- Carrierwave
+- Figaro
+- Simple-Form
+- Devise
+- Spring Commands R-Spec
 
-* Database creation
+### Home Page:
+![](./app/assets/images/grammable.png)
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://grammable-joe-holley.herokuapp.com/
