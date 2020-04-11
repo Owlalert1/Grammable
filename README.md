@@ -2,7 +2,9 @@
 
 # [Grammable](https://grammable-joe-holley.herokuapp.com/)
 
-An Instagram clone that was built using industry-standard, test-driven development following numerous red/green/refactor cycles.
+This is meant to be an Instagram clone. It is mostly an exercise in test-driven development - specifically RSpec. It was built using Ruby on Rails. User authentication was enabled by Devise. PostgreSQL was used for database management. Bootstrap came in handy for the design.
+
+Visitors must sign up to make a post and/or comment on other posts.
 
 #### Built using:
 - Ruby v2.5.3
